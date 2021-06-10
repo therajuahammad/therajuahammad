@@ -1,6 +1,7 @@
 ### Hay, I'm Raju Ahammad 👋
 
 <p>Experienced Web Developer with a demonstrated history of working in the internet and web technology. Contributor and developer of different projects and products.
+<br>
 <br>Skilled in JavaScript, Rest API, React, Redux, Context API, Next JS, NodeJS, PHP, WordPress. 
 </p>
 
