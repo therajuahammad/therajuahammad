@@ -11,7 +11,6 @@ Check my Portfolio <a href="https://rajuahammad.com/">Here</a><br>
 
 <a href="https://app.daily.dev/rajuahammad"><img src="https://api.daily.dev/devcards/29123494f86c4d79a16fcd4897d7cb2f.png?r=n9d" width="400" alt="Raju Ahammad's Dev Card"/></a>
 <br/>
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=therajuahammad)](https://github.com/anuraghazra/github-readme-stats)
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=therajuahammad&show_icons=true)  
 
