@@ -44,4 +44,6 @@ function validate() {
         delete form;
     }, false)
 }
-validate();
+if(document.getElementById('cf')) {
+    validate();
+}
