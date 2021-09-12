@@ -1,0 +1,555 @@
+/*-----------------------------------------------------------------------------------
+    CSS INDEX
+    ===================
+  
+    1. Header Area
+    2. Slider Area
+    3. About Area
+    4. Service Area
+    5. Fortfolio Area
+    6. Contact Area
+    7. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+/*============================================
+* 1. Header Area
+*=============================================*/
+.header-area {
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background: #202020;
+}
+
+.logo a {
+  display: inline-block;
+}
+.logo a img {
+  max-width: 43px;
+}
+
+.main-menu nav ul {
+  text-align: right;
+}
+.main-menu nav ul li {
+  display: inline-block;
+}
+.main-menu nav ul li a {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  padding: 35px 17px;
+  position: relative;
+}
+
+.main-menu nav ul li a:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 17%;
+  height: 7px;
+  width: 7px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.main-menu nav ul li a:after {
+  content: attr(data-hover);
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  opacity: 0;
+  transform: translateX(-50%);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.main-menu nav ul li a:hover:after {
+  opacity: 1;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-menu nav ul li.active a:before {
+  opacity: 1;
+}
+.main-menu nav ul li a span {
+  display: block;
+  -webkit-transition: all 0.15s ease-in-out 0s;
+  -o-transition: all 0.15s ease-in-out 0s;
+  transition: all 0.15s ease-in-out 0s;
+}
+.main-menu nav ul li a:hover span {
+  transform: translate3d(0, -12px, 0);
+  opacity: 0;
+}
+
+/*============================================
+* END Header Area
+*=============================================*/
+
+/*============================================
+* 2. Slider Area
+*=============================================*/
+.slider-area {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.white_svg {
+  position: absolute;
+  left: 0;
+  bottom: -11px;
+  width: 100%;
+  overflow: hidden;
+}
+.svg_white svg {
+  fill: #fff;
+  width: 101%;
+}
+.svg_gray svg {
+  fill: #f9f9f9;
+  width: 101%;
+}
+.slider-content h2 {
+  font-size: 55px;
+  color: #ffffff;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 55px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.slider-content h4 {
+  font-size: 19px;
+  font-weight: 300;
+  color: #ffffff;
+  letter-spacing: 0em;
+  line-height: 41px;
+  text-transform: uppercase;
+}
+.slider-content h4 span {
+  display: inline-block !important;
+  letter-spacing: 0;
+}
+.txt1-wrap {
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.txt1 {
+  opacity: 0;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transform: translate3d(0px, 100%, 0px);
+  -ms-transform: translate3d(0px, 100%, 0px);
+  -o-transform: translate3d(0px, 100%, 0px);
+  transform: translate3d(0px, 100%, 0px);
+}
+
+.next-section {
+  position: absolute;
+  right: 38px;
+  bottom: 123px;
+  transform: rotate(-90deg);
+  z-index: 99;
+  padding-left: 32px;
+}
+.next-section a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+  position: relative;
+}
+.next-section strong {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 4px;
+}
+.next-section a:after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  right: 0;
+  height: 1px;
+  width: 0%;
+  background-color: #ddd;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.next-section a:hover:after {
+  width: 126%;
+}
+
+/*============================================
+* END Slider Area
+*=============================================*/
+
+/*============================================
+* 3. About Area
+*=============================================*/
+.about-area {
+  padding: 100px 0px 150px;
+}
+.abt-left-thumb {
+  display: block;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.3);
+}
+.abt-left-thumb:before {
+  content: "";
+  position: absolute;
+  right: -45px;
+  bottom: -45px;
+  border: 2px solid #f3f2f2;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 0px 0px 30px 0px;
+}
+.abt-left-thumb img {
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 100%;
+}
+.section-title h2 {
+  font-size: 29px;
+  letter-spacing: 0;
+  color: #f3f2f2;
+  line-height: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 16px;
+  position: relative;
+}
+.section-title h2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 55px;
+  background-color: #f3f2f2;
+}
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  height: 1px;
+  width: 255px;
+  background-color: #f3f2f2;
+}
+.section-title h2.txt2_is_show:after {
+  width: 0;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.section-title h2.is_show:after {
+  width: 255px;
+}
+.abt-content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  letter-spacing: 0;
+  margin-bottom: 19px;
+}
+
+.profile-menu li {
+  color: #ccc;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.profile-menu li span {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*============================================
+* END About Area
+*=============================================*/
+
+/*============================================
+* 4. Service Area
+*=============================================*/
+.service-area {
+  position: relative;
+}
+.single-service {
+  z-index: 1;
+  position: relative;
+  padding: 30px 20px;
+  background-color: #f9f9f9;
+}
+.srvc-content {
+  overflow: hidden;
+}
+.srvc-content h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #222222;
+  margin-bottom: 10px;
+}
+.srvc-content p {
+  color: #444;
+  line-height: 26px;
+}
+
+/*============================================
+* END Service Area
+*=============================================*/
+
+/*============================================
+* 5. Fortfolio Area
+*=============================================*/
+.fortfolio-area {
+  position: relative;
+}
+.fortfolio-filter {
+  margin-bottom: 50px;
+}
+.fortfolio-filter button {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-bottom: 6px;
+  position: relative;
+  margin-right: 21px;
+}
+.fortfolio-filter button:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 7px;
+  width: 7px;
+  opacity: 0;
+  background: #464444;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.fortfolio-filter button.active:before {
+  opacity: 1;
+}
+.prt-item {
+  margin-bottom: 30px;
+}
+.prt-item a {
+  display: block;
+}
+.prt-item a.expand-video {
+  position: relative;
+  z-index: 1;
+}
+.prt-item a.expand-video span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.prt-item a.expand-video:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: rgba(27, 27, 27, 0.5);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.prt-item:hover a.expand-video:before {
+  opacity: 1;
+}
+.prt-item a.expand-video span:before {
+  font-size: 50px;
+  color: #fff;
+}
+.prt-item a:hover {
+  box-shadow: 0px 10px 27px rgba(0, 0, 0, 0.1);
+}
+.prt-item a img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+/*============================================
+* END Fortfolio Area
+*=============================================*/
+
+/*============================================
+* 6. Contact Area
+*=============================================*/
+.contact-area {
+  position: relative;
+}
+.contact-area .section-title {
+  margin-bottom: 60px;
+}
+.cnt-left ul li {
+  font-size: 14px;
+  color: #333;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-bottom: 13px;
+  font-weight: 500;
+}
+.cnt-left ul li span.ct-break {
+  display: block;
+}
+.cnt-left .social-link {
+  margin-top: 32px;
+}
+
+.social-link a:not(:last-child) {
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.social-link img {
+  width: 30px;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  height: 45px;
+  border-radius: 3px;
+  width: 100%;
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 20px;
+  letter-spacing: 0;
+  font-size: 13px;
+}
+
+.contact-form form textarea {
+  height: auto;
+}
+
+.contact-form .ui {
+  margin-bottom: 10px;
+}
+
+.contact-form form input::-webkit-input-placeholder,
+.contact-form form textarea::-webkit-input-placeholder {
+  color: #777;
+}
+.contact-form form input::-moz-placeholder,
+.contact-form form textarea::-moz-placeholder {
+  color: #777;
+}
+.contact-form form input:-ms-input-placeholder,
+.contact-form form textarea:-ms-input-placeholder {
+  color: #777;
+}
+.contact-form form input:-moz-placeholder,
+.contact-form form textarea:-moz-placeholder {
+  color: #777;
+}
+
+.contact-form form .form-submit {
+  text-align: right;
+}
+.contact-form form button {
+  background: #222;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 9px 25px;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+}
+.contact-form form button i {
+  margin-left: 8px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.contact-form form button:hover i {
+  -webkit-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  -o-transform: translateX(5px);
+  transform: translateX(5px);
+}
+
+/*============================================
+* END Contact Area
+*=============================================*/
+
+/*============================================
+* 7. Footer Area
+*=============================================*/
+.footer-area {
+  padding: 18px 0px;
+  position: relative;
+}
+.copyright p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #898989;
+}
+.flogo a img {
+  max-width: 40px;
+}
+.copyright p span {
+  display: inline-block;
+  color: #333;
+}
+.go-to-top a {
+  color: #333;
+  position: absolute;
+  left: calc(50% - 35px);
+  top: -35px;
+  background: #fff;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  box-shadow: 0px -2px 9.9px 0.1px rgba(186, 187, 188, 0.25);
+  font-size: 27px;
+}
+.go-to-top a:hover {
+  box-shadow: 0px -4px 9.9px 0.1px rgba(186, 187, 188, 0.25);
+}
+
+/*============================================
+* END Footer Area
+*=============================================*/
