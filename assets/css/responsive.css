@@ -139,8 +139,8 @@
 /* small mobile :320px. */
 
 @media (min-width: 240px) and (max-width: 479px) {
-  .logo a img {
-    max-width: 32px;
+  .main-menu nav ul li a{
+    padding: 25px 10px;
   }
   .next-section {
     display: none;

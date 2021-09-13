@@ -12,7 +12,7 @@ const validations = {
 
 function validate() {
     var form = document.getElementById('cf'),
-        inputsArr = form.querySelectorAll('input'),
+        inputsArr = form.querySelectorAll('.field :first-child'),    
         errorMessage = document.querySelector(".ui.error.message"),
         successMessage = document.querySelector(".ui.success.message");
 
@@ -23,16 +23,17 @@ function validate() {
                 rules = attr ? attr.split(' ') : '',
                 parent = inputsArr[i].closest(".field"),
                 j = 0;
+                
             while (j < rules.length) {
                 if (!validations[rules[j]](inputsArr[i].value)) {
                     e.preventDefault();
 
                     errorMessage.className = "ui error alert alert-danger message";
-                    errorMessage.innerHTML = "Invalid rule '" + rules[j] + "' for input '" + inputsArr[i].name + "'";
+                    errorMessage.innerHTML = inputsArr[i].name + " is required!";
                     parent.className = "field error";
                     return false;
                 }
-                errorMessage.className = "ui error message hidden";
+                errorMessage.className = "ui error message d-none";
                 parent.className = "field";
                 j++;
             }
@@ -44,6 +45,8 @@ function validate() {
         delete form;
     }, false)
 }
+
+
 if(document.getElementById('cf')) {
     validate();
 }
