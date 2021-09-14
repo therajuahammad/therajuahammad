@@ -18,7 +18,7 @@ Check my Portfolio <a href="https://rajuahammad.com/">Here</a><br>
 -->
 
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=therajuahammad)  
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=therajuahammad&theme=github)  
 
 
 <p>
