@@ -27,8 +27,6 @@ Email: <code>rajuahammad73@gmail.com</code> <br>
 Direct Message: <code>https://m.me/therajuahammad</code>
 </p>
 
-<br/>
-
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/therajuahammad/)
 [![Facebook Badge](https://img.shields.io/badge/Facebook-Profile-informational?style=flat&logo=facebook&logoColor=white&color=1CA2F1)](https://facebook.com/therajuahammad)
 [![Twitter Badge](https://img.shields.io/badge/Twitter-Profile-informational?style=flat&logo=twitter&logoColor=white&color=1CA2F1)](https://twitter.com/therajuahammad)
