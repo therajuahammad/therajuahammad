@@ -10,6 +10,11 @@ Check my Portfolio <a href="https://rajuahammad.com/">Here</a><br>
 </p>
 
 
+#### My Github Stats
+  
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=therajuahammad&theme=dark&date_format=M%20j%5B%2C%20Y%5D&ring=89ED96&fire=89ED96&currStreakLabel=89ED96)](https://git.io/streak-stats)
+
+
 <!---
 <a href="https://app.daily.dev/rajuahammad"><img src="https://api.daily.dev/devcards/29123494f86c4d79a16fcd4897d7cb2f.png?r=n9d" width="400" alt="Raju Ahammad's Dev Card"/></a>
 <br/>
