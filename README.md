@@ -10,7 +10,7 @@ Check my Portfolio <a href="https://rajuahammad.com/">Here</a><br>
 </p>
 
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=therajuahammad&theme=dark&date_format=M%20j%5B%2C%20Y%5D&ring=89ED96&fire=89ED96&currStreakLabel=89ED96)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=therajuahammad&theme=dark&date_format=M%20j%5B%2C%20Y%5D&ring=89ED96&fire=89ED96&currStreakLabel=89ED96)](https://rajuahammad.com)
 
 
 <!---
