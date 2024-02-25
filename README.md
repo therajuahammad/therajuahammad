@@ -5,12 +5,9 @@
 <br>Skilled in JavaScript, Nodsjs, React, Nextjs, Redux, Rest API, MongoDB, Styled Components, Context API, PHP, WordPress.....
 </p>
 
-<p><a href="https://rajuahammad.com/"><code>"https://rajuahammad.com</code></a><br></p>
+<p><a href="https://rajuahammad.com/"><code>https://rajuahammad.com</code></a><br></p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=therajuahammad&label=Profile%20views&color=0e75b6&style=flat" alt="raju ahammad" /> </p>
-
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=therajuahammad&theme=dark&date_format=M%20j%5B%2C%20Y%5D&ring=89ED96&fire=89ED96&currStreakLabel=89ED96)](https://rajuahammad.com)
 
 <p align="left"> <a href="https://rajuahammad.com"><img src="https://github-profile-trophy.vercel.app/?username=therajuahammad" alt="raju ahammad" /></a> </p>
 
@@ -24,6 +21,8 @@
 
 [![Hithub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=therajuahammad&bg_color=000000&color=9e4c98&line=525152&point=f3e2e2&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph) 
 
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=therajuahammad&theme=dark&date_format=M%20j%5B%2C%20Y%5D&ring=89ED96&fire=89ED96&currStreakLabel=89ED96)](https://rajuahammad.com)
 
 <p>
 <strong>Contact:</strong> <br>
